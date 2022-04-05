@@ -1,0 +1,42 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: black;
+}
+.content form {
+
+  font-family: Calibri;
+  padding: 10px;
+  margin-top: 10px;
+  width: 50%;
+  text-align: center;
+
+}
+h1 {
+  text-align: center;
+}
+.content input {
+  font-family: Calibri;
+  padding: 10px;
+  margin-top: 10px;
+  width: 50%;
+  text-align: center;
+}
+.content button {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 40%;
+
+}
+
+.content  {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
