@@ -180,7 +180,7 @@ router.post("/uploadFile", function (req, res) {
             return res.send("File nang qua , be hon 2mb di bro,nho chon anh duoi jpg thoi  nhe")
         }
 
-        res.send("thanh cong")
+        res.send(req.file)
     })
 
 
